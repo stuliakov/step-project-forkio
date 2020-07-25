@@ -1,0 +1,95 @@
+.header__body {
+  position: relative; }
+
+.header__button {
+  position: absolute;
+  right: 90px; }
+
+.header__menu {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 280px;
+  width: 450px;
+  padding: 0;
+  left: auto; }
+
+.header__li:hover .header__link {
+  color: #fff; }
+
+.header__li:hover::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: -38px;
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #8d81ac; }
+
+.people__grid-container {
+  grid-template-columns: repeat(3, 1fr); }
+
+.people__description {
+  margin-top: 118px; }
+
+.fork-app {
+  background-size: 100% 100%; }
+
+.revol-editor {
+  padding: 129px 200px 70px 200px; }
+  .revol-editor__description {
+    font-size: 15pt;
+    padding: 38px 0 16px 0; }
+
+.main-content__title {
+  white-space: nowrap;
+  font-size: 39pt;
+  text-transform: uppercase; }
+
+.here-is__title {
+  margin-bottom: 0;
+  font-size: 28pt;
+  text-transform: none; }
+
+.post {
+  margin-bottom: 0; }
+  .post__title {
+    margin-top: 0; }
+  .post__text {
+    max-width: 350px;
+    height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-right: 20px; }
+  .post__description {
+    text-align: left; }
+
+.grid__container {
+  display: grid;
+  padding: 100px 0 69px 30px; }
+
+.fork-pricing__title {
+  text-transform: none; }
+
+.prices {
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; }
+  .prices-card {
+    margin-right: 13px; }
+    .prices-card:last-of-type {
+      margin-right: 0; }
