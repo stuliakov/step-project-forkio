@@ -509,7 +509,7 @@ a {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(../../src/assets/people/people-bg-full.png);
+  background-image: url(../images/people/people-bg-full.png);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-color: #4b3b4e;
