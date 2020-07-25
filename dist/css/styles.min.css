@@ -608,7 +608,6 @@ a {
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	/* background-image: url(../../src/assets/people/people-bg-full.png); */
 	background-image: url(../images/people/people-bg-full.png);
 
 	background-repeat: no-repeat;
@@ -670,7 +669,6 @@ a {
 	position: relative;
 	padding-top: 103px;
 	color: white;
-	/* background-image: url(../../src/assets/fork-app/fork-bg-full.png); */
 	background-image: url(../images/fork-app/fork-bg-full.png);
 
 	background-repeat: no-repeat;
