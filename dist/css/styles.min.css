@@ -100,7 +100,8 @@ a {
     margin: 0px 15px;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s; }
+    transition: all 0.3s ease 0s;
+    overflow: hidden; }
     .header__menu_active {
       opacity: 1;
       height: -webkit-fit-content;
@@ -144,6 +145,7 @@ a {
   background-color: #8d81ac;
   border-radius: 20px;
   outline: none;
+  margin: 0;
   border: none;
   text-transform: capitalize;
   font-weight: bold;

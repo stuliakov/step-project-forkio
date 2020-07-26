@@ -89,6 +89,8 @@
   -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap; }
+  .prices__item:first-child {
+    margin-right: 13px; }
   .prices-card {
     margin-right: 13px; }
     .prices-card:last-of-type {
